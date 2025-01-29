@@ -137,16 +137,12 @@ iframe {
   row-gap: 20px;
   align-items: center;
 }
-box-item1 {
+.box-item1 {
   color: white;
-  max-width: 450px;
+  max-width: 420px;
   width: 100%;
   font-size: 15px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
 }
@@ -240,8 +236,8 @@ textarea {
   height: 1px;
   max-width: 1060px;
   width: 100%;
-  background-color: #ffffffdc;
-  margin-bottom: 40px;
+  background-color: #ffffff71;
+  margin-bottom: 50px;
   padding-right: 0px;
 }
 @media (width <= 768px) {
@@ -323,7 +319,7 @@ textarea {
     flex-direction: column-reverse;
   }
   .container-4::before {
-    margin-bottom: 80px;
+    margin-bottom: 110px;
   }
   .logos {
     padding: unset;
@@ -341,6 +337,13 @@ textarea {
   }
   iframe {
     filter: unset;
-    border-radius: 3cap;
+    border-radius: 20px;
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+  .footer-text {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff9e;
   }
 }
