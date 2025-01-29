@@ -126,7 +126,7 @@ iframe {
   left: 0;
   top: 0;
   filter: drop-shadow(-8px 10px 8px rgb(255, 255, 255));
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .container-parent {
   display: flex;
@@ -337,7 +337,7 @@ textarea {
   }
   iframe {
     filter: unset;
-    border-radius: 20px;
+    border-radius: 15px;
     padding-top: unset;
     padding-bottom: unset;
   }
